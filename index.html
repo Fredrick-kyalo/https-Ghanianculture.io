@@ -10,11 +10,28 @@
                 <div class="jumbotron">
               <h1>Akan Birth names</h1>
               <h2>Description</h2>
-              <p>This is a  name-giving system according to "akan" which is a Ghanian culture.The system gives names according to days which people were born and gender outputs.So by filling the form below you will be able to know your akan name based on your birthday and gender.!</p>
+              <p>GHANAThis is a  name-giving system according to "akan" which is a Ghanian culture.The system gives names according to days which people were born and gender outputs.So by filling the form below you will be able to know your akan name based on your birthday and gender.!</p>
               <div class="card">
-                  <table>
-                      <tr>
-                          <td>
+                <div class="resulted">
+                    <p id="result"></p>
+                </div>
+                <div>
+                    <input type="Number" id="month" placeholder="Month" required >
+                </div>
+                <div>
+                    <input type="Number" id="Year born" placeholder="Year" required>
+                </div>
+                <div>
+                    <input type="Number" id="Day" placeholder="Day of the week" required >
+                </div>
+                <div id="gender"  class="checkbox">
+                    Male<input type="checkbox" value="male" id="male" name="gender">
+                    Female<input type="checkbox" value="female" id="female" name="gender">
+                </div>
+                <div>
+                    <input type="button" value="SUBMIT" onclick="getAkanName();" class="btn btn-primary">
+                    <input type="reset" value="CANCEL SUBMISSION">
+                </div> 
               <h3>Male names</h3>
               <img src="oo.png"width=50px>
               <ul>
@@ -29,7 +46,7 @@
             </td>
             <td>
                   <h4>Female names</h4>
-                  <img src="download.jpeg" width="50px">
+                  <img src="mmh.jpeg" width="50px">
             <ul>
                   <li>Sunday:Akosua</li>
                   <li>Monday:Adwoa</li>
@@ -42,7 +59,8 @@
         </td>
         </tr>
         </table>
-                  <form>
+            </div>
+                </form>
                   
                 </form>
             </div>
