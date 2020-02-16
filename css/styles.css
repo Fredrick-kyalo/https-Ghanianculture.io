@@ -3,3 +3,9 @@ background-image: cross-fade();
 background-color: navajowhite;
 backface-visibility: unset;  
 }
+form{
+    text-align:left;
+}
+.submit{
+    text-align: left;
+}
