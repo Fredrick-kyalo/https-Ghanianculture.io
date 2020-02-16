@@ -16,17 +16,17 @@
                     <p id="result"></p>
                 </div>
                 <div>
-                    <input type="Number" id="month" placeholder="Month" required >
+                    <input type="text" id="month" placeholder="Month" maxlength="2" required >
                 </div>
                 <div>
-                    <input type="number" id="Year born" placeholder="Year" required>
+                    <input type="text" id="year" placeholder="Year" maxlength="4" required>
                 </div>
                 <div>
-                    <input type="Number" id="Day" placeholder="Day of the week" required >
+                    <input type="text" id="day" placeholder="Day of the month" maxlength="2" required >
                 </div>
                 <div id="gender"  class="checkbox">
-                    Male<input type="checkbox" value="male" id="male" name="gender">
-                    Female<input type="checkbox" value="female" id="female" name="gender">
+                    Male<input type="radio" value="male" id="male" name="gender" checked>
+                    Female<input type="radio" value="female" id="female" name="gender">
                 </div>
                 <div>
                     <input type="button" value="SUBMIT" onclick="getAkanName();" class="btn btn-primary">
