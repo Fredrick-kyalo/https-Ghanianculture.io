@@ -1,4 +1,5 @@
 body{
 background-image: cross-fade();
-background-color: navajowhite;  
+background-color: navajowhite;
+backface-visibility: unset;  
 }
