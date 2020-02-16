@@ -1,6 +1,5 @@
 function getAkanName(){
 
-
     var MM = document.querySelector("#month").value;
     var YYYY = document.querySelector("#year").value;
     var DD = document.querySelector("#day").value;
