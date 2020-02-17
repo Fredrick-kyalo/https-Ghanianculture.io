@@ -26,9 +26,6 @@ function getAkanName(){
     var CC = YYYY.substring(0, 2)
     var YY = YYYY.substring(2, 4)
 
-    // TODO Confirm why formular is inconsistent
-    // dayOfTheWeek = (((CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
-
     var birthday =  new Date(YYYY, MM, DD);
     var dayOfTheWeek = birthday.getDay();
 
@@ -93,11 +90,5 @@ function getAkanName(){
     }
 
     alert(
-        'The month is ' + MM + '\n'+
-        'The century is ' + CC+ '\n'+
-        'The year is ' + YY+ '\n'+
-        'The day is ' + DD + '\n'+
-        'The gender is ' + gender + '\n'+
-        'The day of the week born is ' + dayOfTheWeek  + '\n'+
-        'Your Akan name is ' + name )
+        'Good news Manchester city were banned from Uefa.Anyways Your Akan name is ' + name )
 }
