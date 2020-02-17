@@ -45,50 +45,50 @@ function getAkanName(){
      // Monday
      if (dayOfTheWeek==2){
         if(gender=="male"){
-            name =""
+            name ="Kwadwo"
         } else {
-            name =""
+            name ="Adwoa"
         }
     }
 
      // Tuesday
      if (dayOfTheWeek==3){
         if(gender=="male"){
-            name =""
+            name ="Kwabena"
         } else {
-            name =""
+            name ="Abenaa"
         }
     }
      // Wednesday
      if (dayOfTheWeek==4){
         if(gender=="male"){
-            name =""
+            name ="Kwaku"
         } else {
-            name =""
+            name ="Akua"
         }
     }
      // Thursday
      if (dayOfTheWeek==5){
         if(gender=="male"){
-            name =""
+            name ="Yaw"
         } else {
-            name =""
+            name ="yaa"
         }
     }
      // Friday
      if (dayOfTheWeek==6){
         if(gender=="male"){
-            name =""
+            name ="Kofi"
         } else {
-            name =""
+            name ="Afua"
         }
     }
      // Saturday
      if (dayOfTheWeek==7){
         if(gender=="male"){
-            name =""
+            name ="Kwame"
         } else {
-            name =""
+            name ="Ama"
         }
     }
 
